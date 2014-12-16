@@ -17,7 +17,7 @@ public class Main {
         //String className = "org.objectweb.asm.ClassReader";
         //String className = "clojure.main";
         String className = "test.Test";
-        //String className = "test.Linpack";
+        //String className = "java.lang.Boolean";
 
 
         String out = "test.Test.ll";

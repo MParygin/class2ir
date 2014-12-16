@@ -1,6 +1,6 @@
 package test;
 
-public class Test {
+public class Test extends TestParent {
 
     boolean bl;
     byte bt;
@@ -23,6 +23,11 @@ public class Test {
         this.db = 0.53;
 
         linux.glibc.put(this.in);
+    }
+
+    @Override
+    public int length() {
+        return super.length();
     }
 
     public static void main() {
