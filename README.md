@@ -9,5 +9,6 @@ Features:
 * Linux x86_64 target arch
 * Extreme small size (~10-20 kB ordinary program)
 * Use glibc
+* Use clang for system object
 
 At this moment project in active development, many things does not work.
